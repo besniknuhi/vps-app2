@@ -1,0 +1,38 @@
+export const plans = [
+  {
+    id: 1,
+    title: "Starter",
+    priceFull: 39,
+    priceCents: 99,
+    cpu: "4 vCPU",
+    ram: "8GB RAM",
+    storage: "50GB NVMe Storage",
+  },
+  {
+    id: 2,
+    title: "Pro",
+    priceFull: 59,
+    priceCents: 99,
+    cpu: "6 vCPU",
+    ram: "12GB RAM",
+    storage: "60GB NVMe Storage",
+  },
+  {
+    id: 3,
+    title: "Advanced",
+    priceFull: 79,
+    priceCents: 99,
+    cpu: "8 vCPU",
+    ram: "16GB RAM",
+    storage: "70GB NVMe Storage",
+  },
+  {
+    id: 4,
+    title: "Elite",
+    priceFull: 159,
+    priceCents: 99,
+    cpu: "16 vCPU",
+    ram: "32GB RAM",
+    storage: "100GB NVMe Storage",
+  },
+];
