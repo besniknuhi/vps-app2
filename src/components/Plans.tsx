@@ -139,7 +139,7 @@ export default function Plans() {
             <div className="px-8 py-6 overflow-hidden bg-[rgb(0,23,26)] rounded-[30px] relative">
               <div className="relative">
                 <p className="text-sm font-semibold sm:text-base">
-                  Can't find the perfect plan?
+                  Can&apos;t find the perfect plan?
                 </p>
                 <p className="mt-2 mb-8 text-sm font-medium sm:text-base">
                   No problem! Our scalable plans are designed to grow with you.

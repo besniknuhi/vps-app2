@@ -14,8 +14,8 @@ export default function Infrastructure() {
           <div className="flex flex-wrap justify-between lg:flex-nowrap gap-9 text-[rgb(101,159,159)]">
             <div className="flex flex-col gap-4 sm:pt-8 lg:max-w-[312px] text-primary-2 text-base font-medium">
               <p>
-                Whether you're looking for powerful virtual private servers or
-                dedicated hardware, we have the right option for you.
+                Whether you&apos;re looking for powerful virtual private servers
+                or dedicated hardware, we have the right option for you.
               </p>
               <p>See the details right here:</p>
             </div>
@@ -23,7 +23,10 @@ export default function Infrastructure() {
               <div className="relative">
                 <div className="grid gap-5 sm:grid-cols-2">
                   {cards.map((card) => (
-                    <div className="p-px bg-gradient-to-b from-[#00393D] to-transparent rounded-[30px] overflow-hidden">
+                    <div
+                      key={card.id}
+                      className="p-px bg-gradient-to-b from-[#00393D] to-transparent rounded-[30px] overflow-hidden"
+                    >
                       <div className="px-6 py-8 rounded-[30px] h-full flex flex-col bg-[rgb(0,19,20)]">
                         <div className="inline-flex items-center gap-4">
                           <Image src={card.icon} alt="icon" />
@@ -56,7 +59,10 @@ export default function Infrastructure() {
                 </p>
                 <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 xl:grid-cols-4 sm:gap-9">
                   {opSystems.map((system) => (
-                    <div className="flex flex-col gap-2 sm:gap-4">
+                    <div
+                      key={system.id}
+                      className="flex flex-col gap-2 sm:gap-4"
+                    >
                       <Image src={system.img} alt="system image" />
                       <div className="flex flex-col gap-0.5">
                         <p className="text-base font-medium text-white">

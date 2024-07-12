@@ -23,6 +23,12 @@ import twitter from "/public/twitter.svg";
 import youtube from "/public/youtube.svg";
 import discord from "/public/discord.svg";
 import arrowUR from "/public/arrow-up-right.svg";
+import brandAmd from "/public/brand-amd.svg";
+import brandCloud from "/public/brand-cloud-init.svg";
+import brandIntel from "/public/brand-intel.svg";
+import brandAlma from "/public/brand-almalinux.svg";
+import brandUbuntu from "/public/brand-ubuntu.svg";
+import brandWindows from "/public/brand-windows.svg";
 
 export {
   intelIcon,
@@ -50,4 +56,10 @@ export {
   youtube,
   discord,
   arrowUR,
+  brandAmd,
+  brandCloud,
+  brandIntel,
+  brandAlma,
+  brandUbuntu,
+  brandWindows,
 };

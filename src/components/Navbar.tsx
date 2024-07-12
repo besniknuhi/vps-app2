@@ -1,9 +1,10 @@
 "use client";
+import { useState } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
+
 import icon1 from "/public/icon.svg";
-import { useState } from "react";
 
 const navLinks = [
   { id: 1, name: "Home", link: "/" },

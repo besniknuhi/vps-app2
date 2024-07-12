@@ -32,8 +32,6 @@ const cards = [
   },
 ];
 
-const starIcons = [starIcon, starIcon, starIcon, starIcon, starIcon];
-
 export default function ChooseUs() {
   return (
     <section
@@ -74,9 +72,11 @@ export default function ChooseUs() {
                   />
                 </Link>
                 <div className="flex items-center gap-2 mt-4 mb-3">
-                  {starIcons.map((star) => (
-                    <Image src={star} alt="star icon" />
-                  ))}
+                  <Image src={starIcon} alt="star icon" />
+                  <Image src={starIcon} alt="star icon" />
+                  <Image src={starIcon} alt="star icon" />
+                  <Image src={starIcon} alt="star icon" />
+                  <Image src={starIcon} alt="star icon" />
                 </div>
                 <p className="text-sm font-medium">Average Score 5/5</p>
               </div>
