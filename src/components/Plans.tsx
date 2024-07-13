@@ -54,7 +54,7 @@ export default function Plans() {
         <div className="flex flex-col justify-center gap-4 sm:flex-row sm:flex-wrap sm:gap-8 sm:items-center"></div>
         <div className="relative">
           <div className="max-w-[1440px] mx-auto">
-            <div className="h-[444px]">
+            <div>
               <div className="flex flex-wrap">
                 {plans.map((plan) => (
                   <div
